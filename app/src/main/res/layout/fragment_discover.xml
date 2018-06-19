@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DiscoverFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/nike_lebron_soldier_xi_sfg_safari" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/imageView"
+        android:layout_marginEnd="27dp"
+        android:src="@drawable/balenciaga1" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/converse_one_star_ox_retro_shoes" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="220dp"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="12dp"
+        android:src="@drawable/yeezy" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView6"
+        android:layout_alignParentStart="true"
+        android:src="@mipmap/ic_launcher_round" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/yee" />
+
+</RelativeLayout>
